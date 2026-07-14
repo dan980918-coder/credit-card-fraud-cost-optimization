@@ -1,0 +1,26 @@
+# 데이터 (용량 문제로 제외)
+data/*.csv
+data/*.zip
+
+# 노트북 체크포인트
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# 모델/캐시 파일
+*.pkl
+*.joblib
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 환경설정
+.env
